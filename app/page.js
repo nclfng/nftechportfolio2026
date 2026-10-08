@@ -95,7 +95,7 @@ const reads = [
 
 const currently = [
   { label: "Based in", value: "Bay Area, CA" },
-  { label: "Currently", value: "UC San Diego 2029" },
+  { label: "Currently", value: "UC San Diego" },
   { label: "Seeking", value: "SWE / PM — Summer 2027" },
 ];
 
@@ -132,7 +132,7 @@ export default function Home() {
             </p>
             <div className="flex items-center gap-2 flex-wrap">
               <span className="font-mono text-xs text-ink-2 border border-rule rounded-sm px-3 py-1">
-                UC San Diego 2029
+                UC San Diego
               </span>
               <span className="font-mono text-xs text-ink-2 border border-rule rounded-sm px-3 py-1">
                 Artificial Intelligence

@@ -2,7 +2,17 @@ import { Calendar, Users, ImageOff } from "lucide-react";
 
 // Add entries here as events happen. Shape:
 // { title, org, date, role, turnout, description, photos: [] }
-const events = [];
+const events = [
+  {
+    title: "Engineers on the Green (EOTG)",
+    org: "TESC",
+    date: "Fall 2026",
+    role: "Co-President",
+    turnout: "500+ attendees · 60+ clubs & orgs",
+    description:
+      "UCSD's biggest engineering club fair — brought together 60+ clubs and organizations, including company ambassadors, for 500+ students to connect with the campus engineering community.",
+  },
+];
 
 const orgs = ["ACM", "TESC", "Google Student Ambassador"];
 

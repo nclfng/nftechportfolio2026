@@ -9,7 +9,7 @@ export const metadata = {
     url: "https://nicolefong.tech/resume",
     title: "Resume | Nicole Fong",
     description:
-      "Resume of Nicole Fong — AI/ML engineer, Break Through Tech Fellow, UCSD 2029.",
+      "Resume of Nicole Fong — AI/ML engineer, Break Through Tech Fellow, UCSD.",
   },
 };
 
