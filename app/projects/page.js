@@ -4,7 +4,7 @@ const projects = [
   {
     id: 1,
     title: "Straightline",
-    tagline: "ADA compliance analysis platform — DiamondHacks 2026 winner",
+    tagline: "ADA compliance analysis platform, DiamondHacks 2026 winner",
     description:
       "Built in 36 hours at ACM DiamondHacks 2026 (400+ participants). An ADA compliance platform that uses autonomous Browser Use agents to scrape accessibility data for real-world locations, Gaussian Splatting for 3D environment reconstruction, and Supabase for caching. Won Best Use of Browser Use.",
     stack: ["Browser Use", "Gaussian Splatting", "Supabase", "Google Maps API", "Python", "Next.js"],
@@ -21,7 +21,7 @@ const projects = [
   {
     id: 2,
     title: "Fruit Recognition CNN",
-    tagline: "Real-time 24-layer GoogLeNet CNN — ACM AI Projects",
+    tagline: "Real-time 24-layer GoogLeNet CNN, ACM AI Projects",
     description:
       "Engineered a real-time fruit recognition system for the ACM @ UCSD AI Projects Team. Designed a 24-layer GoogLeNet-inspired CNN from scratch with custom IOU and loss functions, trained on the COCO 2017 dataset.",
     stack: ["Python", "PyTorch", "GoogLeNet", "COCO 2017", "OpenCV", "NumPy"],
@@ -36,7 +36,7 @@ const projects = [
   {
     id: 8,
     title: "Triton Robotics Autonomy",
-    tagline: "6-DoF pose estimation with solvePnP — Triton Robotics",
+    tagline: "6-DoF pose estimation with solvePnP, Triton Robotics",
     description:
       "Improved 3D object orientation accuracy on a robotics autonomy team by transitioning detection from bounding box methods to feature-based computer vision using sticker and sentry symbol recognition. Prototyped a Python/OpenCV node with contour detection and applied solvePnP with real-world object dimensions to achieve 6-DoF pose estimation.",
     stack: ["Python", "C++", "OpenCV", "ROS2", "Computer Vision", "Pose Estimation"],
@@ -51,7 +51,7 @@ const projects = [
   {
     id: 7,
     title: "Movie Recommendation System",
-    tagline: "Matrix factorization recommender — CSE 25, UCSD",
+    tagline: "Matrix factorization recommender, CSE 25, UCSD",
     description:
       "Built a collaborative filtering recommendation system on the MovieLens 20M dataset using regularized Matrix Factorization trained with SGD. Designed a hybrid scoring model combining personalized latent factor predictions with item popularity signals, achieving Precision@10 of 0.0901 and outperforming both pure MF and popularity-only baselines. Explored the tradeoff between rating prediction accuracy and ranking quality in high-sparsity settings (98.6% matrix sparsity).",
     stack: ["Python", "NumPy", "Collaborative Filtering", "Matrix Factorization", "SGD"],
@@ -97,7 +97,7 @@ const projects = [
   {
     id: 5,
     title: "PetHub",
-    tagline: "Next.js interactive anatomy learning app — WiC",
+    tagline: "Next.js interactive anatomy learning app, WiC",
     description:
       "An educational Next.js web app built with the Women in Computing project team. Features interactive pet anatomy explorations and learning modules, deployed on Vercel.",
     stack: ["Next.js", "React", "Tailwind CSS", "Vercel"],
@@ -112,7 +112,7 @@ const projects = [
   {
     id: 6,
     title: "Spotify Recommender",
-    tagline: "Collaborative filtering recommender — ACM AI Mentor",
+    tagline: "Collaborative filtering recommender, ACM AI Mentor",
     description:
       "Co-mentored a team of 4 to build a Spotify recommender system using collaborative filtering and user similarity models. Evaluation methodology included Precision@K, Recall@K, and random/popularity baselines.",
     stack: ["Python", "Collaborative Filtering", "scikit-learn", "Pandas", "Jupyter"],

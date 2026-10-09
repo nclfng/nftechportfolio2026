@@ -7,7 +7,7 @@
    tones a step apart, rules are visible sand lines, ink is warm espresso. */
 :root {
   --bg:            #F3EDE3;
-  --bg-raised:     #E9DFCC; /* darker than the page — panels are deep cream, never whiter than --bg */
+  --bg-raised:     #E9DFCC; /* darker than the page, panels are deep cream, never whiter than --bg */
   --ink:           #2A211A;
   --ink-2:         #4A4034;
   --ink-3:         #665A4B; /* ≥4.5:1 on --bg-raised for small metadata text */
@@ -18,7 +18,7 @@
   --ok:            #3E6B4F;
 }
 
-/* Dark ("Ink") — companion edition: warm brown-black, re-tuned rather than inverted */
+/* Dark ("Ink"): companion edition, warm brown-black, re-tuned rather than inverted */
 [data-theme="dark"] {
   --bg:            #211D1A;
   --bg-raised:     #2A2521;

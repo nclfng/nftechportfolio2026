@@ -24,7 +24,7 @@ const experience = [
   },
   {
     role: "AI & ML Intern",
-    company: "ChakraTech — San Diego, CA",
+    company: "ChakraTech, San Diego, CA",
     period: "Jun.–Aug. 2026",
     bullets: [
       "Led development of a property-prediction pipeline for biodegradable polymers, engineering structural features to prioritize which candidates move forward to physical testing.",
@@ -33,7 +33,7 @@ const experience = [
   },
   {
     role: "Operations Assistant",
-    company: "Rad Blue Inc — San Francisco, CA",
+    company: "Rad Blue Inc, San Francisco, CA",
     period: "Jan.–Aug. 2026",
     bullets: [
       "Improved performance for sales verticals by 18% across 30+ tasks by building ground-truth evaluation baselines and rubric-based assessments for RLHF fine-tuning.",
@@ -73,7 +73,7 @@ const featuredOrgs = [
 
 const activities = [
   { org: "Engineering Innovation & Entrepreneurship Council", role: "VP Events" },
-  { org: "Women in Computing", role: "Project Teams — Fall 2025" },
+  { org: "Women in Computing", role: "Project Teams, Fall 2025" },
   { org: "Triton Robotics", role: "Autonomy Team · 2025–26" },
   { org: "Roblox x RBXDev", role: "Finance & Website Staff" },
 ];
@@ -82,13 +82,13 @@ const reads = [
   {
     tag: "Paper",
     title: "You Only Look Once: Unified, Real-Time Object Detection",
-    note: "Reframes detection as a single regression problem — one pass, real-time results. A shift in how I think about efficiency in model design.",
+    note: "Reframes detection as a single regression problem: one pass, real-time results. A shift in how I think about efficiency in model design.",
     href: "https://arxiv.org/pdf/1506.02640",
   },
   {
     tag: "Paper",
     title: "Image-to-Image Translation with Conditional Adversarial Networks",
-    note: "One framework, wildly different tasks — sketch to photo, day to night. Changed how I think about what a loss function is actually doing.",
+    note: "One framework, wildly different tasks: sketch to photo, day to night. Changed how I think about what a loss function is actually doing.",
     href: "https://arxiv.org/pdf/1611.07004",
   },
 ];
@@ -96,14 +96,14 @@ const reads = [
 const currently = [
   { label: "Based in", value: "Bay Area, CA" },
   { label: "Currently", value: "UC San Diego" },
-  { label: "Seeking", value: "SWE / PM — Summer 2027" },
+  { label: "Seeking", value: "SWE / PM, Summer 2027" },
 ];
 
 function SectionHeading({ num, title }) {
   return (
     <div className="mb-8">
       <p className="font-mono text-xs text-ink-3 tracking-[0.12em] uppercase mb-2">
-        {num} ——
+        {num} --
       </p>
       <h2 className="font-display font-medium text-ink text-2xl lg:text-[27px] leading-tight">
         {title}
@@ -128,7 +128,7 @@ export default function Home() {
             <p className="text-[17px] leading-[1.65] text-ink-2 max-w-prose">
               Second-year AI student at UCSD building multimodal AI systems, computer vision
               tools, and production ML pipelines. ACM mentor. TESC Co-President.
-              Break Through Tech fellow. Hackathon winner.
+              Hackathon winner.
             </p>
             <div className="flex items-center gap-2 flex-wrap">
               <span className="font-mono text-xs text-ink-2 border border-rule rounded-sm px-3 py-1">
@@ -205,7 +205,7 @@ export default function Home() {
         <div className="flex items-end justify-between mb-8">
           <div>
             <p className="font-mono text-xs text-ink-3 tracking-[0.12em] uppercase mb-2">
-              02 ——
+              02 --
             </p>
             <h2 className="font-display font-medium text-ink text-2xl lg:text-[27px] leading-tight">
               Featured Work

@@ -20,7 +20,7 @@ export default function NutritionLabel() {
         At a glance
       </h3>
       <p className="font-mono text-xs text-ink-3 tracking-[0.12em] uppercase mt-1">
-        Nicole Fong — Developer Profile
+        Nicole Fong · Developer Profile
       </p>
 
       {/* Serving info */}

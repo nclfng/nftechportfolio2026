@@ -1,7 +1,7 @@
 export const metadata = {
   title: "Campus",
   description:
-    "Events Nicole Fong organizes and hosts on campus at UC San Diego — through ACM, TESC, and the Google Student Ambassador program.",
+    "Events Nicole Fong organizes and hosts on campus at UC San Diego, through ACM, TESC, and the Google Student Ambassador program.",
   alternates: {
     canonical: "https://nicolefong.tech/campus",
   },

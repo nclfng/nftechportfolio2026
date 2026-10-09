@@ -38,7 +38,7 @@ export const metadata = {
     template: "%s | Nicole Fong",
   },
   description:
-    "Nicole Fong is a second-year AI student at UC San Diego building multimodal AI systems, computer vision tools, and full-stack software. Break Through Tech Fellow, ACM AI Events Director, DiamondHacks 2026 winner.",
+    "Nicole Fong is a second-year AI student at UC San Diego building multimodal AI systems, computer vision tools, and full-stack software. ACM AI Events Director, DiamondHacks 2026 winner.",
   keywords: [
     "Nicole Fong",
     "Nicole Fong UCSD",
@@ -49,7 +49,6 @@ export const metadata = {
     "full stack developer",
     "machine learning",
     "computer vision",
-    "Break Through Tech",
   ],
   authors: [{ name: "Nicole Fong", url: SITE_URL }],
   creator: "Nicole Fong",
@@ -59,14 +58,14 @@ export const metadata = {
     siteName: "Nicole Fong",
     title: "Nicole Fong | AI/ML Engineer & Full Stack Developer",
     description:
-      "Nicole Fong is a second-year AI student at UC San Diego building multimodal AI systems, computer vision tools, and full-stack software. Break Through Tech Fellow, ACM AI Events Director, DiamondHacks 2026 winner.",
+      "Nicole Fong is a second-year AI student at UC San Diego building multimodal AI systems, computer vision tools, and full-stack software. ACM AI Events Director, DiamondHacks 2026 winner.",
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
     title: "Nicole Fong | AI/ML Engineer & Full Stack Developer",
     description:
-      "Second-year AI student at UC San Diego. Break Through Tech Fellow. DiamondHacks 2026 winner. Building multimodal AI and full-stack software.",
+      "Second-year AI student at UC San Diego. DiamondHacks 2026 winner. Building multimodal AI and full-stack software.",
     creator: "@nicolefong",
   },
   robots: {
@@ -100,7 +99,7 @@ const jsonLd = {
   url: SITE_URL,
   jobTitle: "AI/ML Engineer & Full Stack Developer",
   description:
-    "Second-year Artificial Intelligence student at UC San Diego. Break Through Tech Fellow. ACM AI Events Director. DiamondHacks 2026 winner.",
+    "Second-year Artificial Intelligence student at UC San Diego. ACM AI Events Director. DiamondHacks 2026 winner.",
   alumniOf: {
     "@type": "CollegeOrUniversity",
     name: "UC San Diego",
