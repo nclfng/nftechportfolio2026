@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Calendar, Users, ImageOff } from "lucide-react";
 
 // Add entries here as events happen. Shape:
@@ -11,18 +12,41 @@ const events = [
     turnout: "500+ attendees · 60+ clubs & orgs",
     description:
       "UCSD's biggest engineering club fair — brought together 60+ clubs and organizations, including company ambassadors, for 500+ students to connect with the campus engineering community.",
+    photos: [
+      "/events/eotg-fall-2026/eotg-1.jpg",
+      "/events/eotg-fall-2026/eotg-2.jpg",
+      "/events/eotg-fall-2026/eotg-3.jpg",
+      "/events/eotg-fall-2026/eotg-4.jpg",
+      "/events/eotg-fall-2026/eotg-5.jpg",
+      "/events/eotg-fall-2026/eotg-6.jpg",
+      "/events/eotg-fall-2026/eotg-7.jpg",
+    ],
   },
 ];
 
 const orgs = ["ACM", "TESC", "Google Student Ambassador"];
 
 function EventCard({ event }) {
+  const [cover, ...rest] = event.photos ?? [];
+
   return (
     <div className="border border-rule rounded overflow-hidden bg-raised">
-      <div className="aspect-[16/9] bg-bg border-b border-rule flex flex-col items-center justify-center gap-2 text-ink-3">
-        <ImageOff size={20} strokeWidth={1.5} />
-        <span className="font-mono text-[11px]">Photos coming soon</span>
-      </div>
+      {cover ? (
+        <div className="relative aspect-[16/9] bg-bg border-b border-rule">
+          <Image
+            src={cover}
+            alt={`${event.title} — cover photo`}
+            fill
+            sizes="(min-width: 768px) 50vw, 100vw"
+            className="object-cover"
+          />
+        </div>
+      ) : (
+        <div className="aspect-[16/9] bg-bg border-b border-rule flex flex-col items-center justify-center gap-2 text-ink-3">
+          <ImageOff size={20} strokeWidth={1.5} />
+          <span className="font-mono text-[11px]">Photos coming soon</span>
+        </div>
+      )}
       <div className="p-5">
         <div className="flex items-baseline justify-between gap-3">
           <h3 className="font-display font-semibold text-ink text-lg leading-tight">
@@ -36,6 +60,21 @@ function EventCard({ event }) {
           <p className="font-mono text-xs text-ink-3 mt-3 flex items-center gap-1.5">
             <Users size={13} /> {event.turnout}
           </p>
+        )}
+        {rest.length > 0 && (
+          <div className="grid grid-cols-3 gap-1.5 mt-4">
+            {rest.map((src) => (
+              <div key={src} className="relative aspect-square rounded-sm overflow-hidden border border-rule">
+                <Image
+                  src={src}
+                  alt={`${event.title} — photo`}
+                  fill
+                  sizes="33vw"
+                  className="object-cover"
+                />
+              </div>
+            ))}
+          </div>
         )}
       </div>
     </div>

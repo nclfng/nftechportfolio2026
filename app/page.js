@@ -5,6 +5,15 @@ import ExperienceCard from "@/components/ExperienceCard";
 // ── Page data ──────────────────────────────────────────────────────────────
 const experience = [
   {
+    role: "CSE PACE Lead Mentor",
+    company: "UC San Diego, Computer Science & Engineering",
+    period: "Sept. 2026–Present",
+    bullets: [
+      "Mentor 100+ first-year students in the CSE PACE program through weekly small-group sessions, building peer community and academic confidence in the major.",
+      "Facilitate hands-on group exercises connecting first-years to CSE courses, resources, and campus opportunities.",
+    ],
+  },
+  {
     role: "Google Student Ambassador",
     company: "Google",
     period: "Aug. 2026–Present",
@@ -14,21 +23,12 @@ const experience = [
     ],
   },
   {
-    role: "AI/ML Intern",
+    role: "AI & ML Intern",
     company: "ChakraTech — San Diego, CA",
     period: "Jun.–Aug. 2026",
     bullets: [
-      "Developing and evaluating predictive models for sustainable materials research and polymer informatics.",
-      "Building data pipelines and applying ML frameworks to optimization in developing biodegradable materials.",
-    ],
-  },
-  {
-    role: "AI/ML Fellow",
-    company: "Break Through Tech — Cornell Tech, NY",
-    period: "Mar. 2026–Present",
-    bullets: [
-      "1 of 4,000 students selected nationally for Break Through Tech's AI Program at Cornell Tech.",
-      "Earned a Cornell University ML certificate analyzing real-world datasets with industry-standard tools.",
+      "Led development of a property-prediction pipeline for biodegradable polymers, engineering structural features to prioritize which candidates move forward to physical testing.",
+      "Identified and corrected a data leakage risk by grouping structurally related compounds during train/test splitting, preventing inflated accuracy estimates.",
     ],
   },
   {
@@ -36,7 +36,7 @@ const experience = [
     company: "Rad Blue Inc — San Francisco, CA",
     period: "Jan.–Aug. 2026",
     bullets: [
-      "Construct ground-truth evaluation baselines and rubric-based assessments for RLHF fine-tuning.",
+      "Improved performance for sales verticals by 18% across 30+ tasks by building ground-truth evaluation baselines and rubric-based assessments for RLHF fine-tuning.",
     ],
   },
 ];
@@ -67,7 +67,7 @@ const featuredOrgs = [
     org: "Triton Engineering Student Council",
     role: "Co-President · Tech Committee",
     period: "Oct. 2025–Present",
-    note: "Elected Co-President leading the umbrella organization for 40+ UCSD engineering clubs.",
+    note: "Leading the umbrella organization for 50+ UCSD engineering clubs, setting fall priorities for club funding and corporate sponsorships, and hosting events for 500+ students.",
   },
 ];
 
