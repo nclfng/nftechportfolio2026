@@ -6,7 +6,7 @@ const skills = [
 ];
 
 const fieldNotes = [
-  { label: "GPA",             value: "3.74" },
+  { label: "GPA",             value: "3.78" },
   { label: "Active Campus Orgs", value: "4" },
   { label: "Side Projects",   value: "Always" },
   { label: "Tea Dependency",  value: "High" },
