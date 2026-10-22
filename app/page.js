@@ -59,7 +59,7 @@ const awards = [
 const featuredOrgs = [
   {
     org: "Association for Computing Machinery",
-    role: "AI Events Director · AI Projects Mentor ×2",
+    role: "AI Events Director · AI Projects Mentor ×4",
     period: "Oct. 2025–Present",
     note: "Directs AI event programming for UCSD's largest student org, planning 5+ events this fall including the AI School Series and AI Fall Kickoff. Mentors 15+ students on applied ML fundamentals using PyTorch, scikit-learn, and Hugging Face.",
   },
