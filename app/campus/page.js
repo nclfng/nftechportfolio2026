@@ -33,6 +33,13 @@ const events = [
     turnout: "700+ attendees · 12 sponsor companies",
     description:
       "Career fair connecting UCSD engineering students with employers across engineering disciplines, hosted by the Triton Engineering Student Council.",
+    photos: [
+      "/events/decaf-fall-2026/decaf-1.jpg",
+      "/events/decaf-fall-2026/decaf-2.jpg",
+      "/events/decaf-fall-2026/decaf-3.jpg",
+      "/events/decaf-fall-2026/decaf-4.jpg",
+      "/events/decaf-fall-2026/decaf-5.jpg",
+    ],
   },
   {
     title: "AI Fall Kickoff",
