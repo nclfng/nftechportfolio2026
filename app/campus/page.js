@@ -33,6 +33,10 @@ const events = [
     turnout: "70+ attendees",
     description:
       "Kicked off ACM's AI programming for the quarter, introducing students to the AI School Series workshop track and the team's project opportunities for the year.",
+    photos: [
+      "/events/ai-fall-kickoff/ai-kickoff-1.jpg",
+      "/events/ai-fall-kickoff/ai-kickoff-2.jpg",
+    ],
   },
   {
     title: "AI School Series",
@@ -42,6 +46,10 @@ const events = [
     turnout: "70+ attendees per session",
     description:
       "Directed a 4-part applied ML workshop track covering fundamentals with PyTorch, scikit-learn, and Hugging Face for UCSD's largest student organization.",
+    photos: [
+      "/events/ai-school-series/ai-school-1.jpg",
+      "/events/ai-school-series/ai-school-2.jpg",
+    ],
   },
 ];
 
