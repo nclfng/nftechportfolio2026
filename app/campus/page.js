@@ -26,6 +26,15 @@ const events = [
     ],
   },
   {
+    title: "Disciplines in Engineering Career Fair (DECaF)",
+    org: "TESC",
+    date: "Fall 2026",
+    role: "Co-President",
+    turnout: "700+ attendees · 12 sponsor companies",
+    description:
+      "Career fair connecting UCSD engineering students with employers across engineering disciplines, hosted by the Triton Engineering Student Council.",
+  },
+  {
     title: "AI Fall Kickoff",
     org: "ACM",
     date: "Fall 2026",
