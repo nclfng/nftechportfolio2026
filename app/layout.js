@@ -38,7 +38,7 @@ export const metadata = {
     template: "%s | Nicole Fong",
   },
   description:
-    "Nicole Fong is a second-year AI student at UC San Diego building multimodal AI systems, computer vision tools, and full-stack software. ACM AI Events Director, DiamondHacks 2026 winner.",
+    "Nicole Fong is a second-year AI student at UC San Diego building multimodal AI systems, computer vision tools, and full-stack software. ACM AI Events Director, 2x hackathon winner (DiamondHacks 2026, CalHacks 13.0).",
   keywords: [
     "Nicole Fong",
     "Nicole Fong UCSD",
@@ -58,14 +58,14 @@ export const metadata = {
     siteName: "Nicole Fong",
     title: "Nicole Fong | AI/ML Engineer & Full Stack Developer",
     description:
-      "Nicole Fong is a second-year AI student at UC San Diego building multimodal AI systems, computer vision tools, and full-stack software. ACM AI Events Director, DiamondHacks 2026 winner.",
+      "Nicole Fong is a second-year AI student at UC San Diego building multimodal AI systems, computer vision tools, and full-stack software. ACM AI Events Director, 2x hackathon winner (DiamondHacks 2026, CalHacks 13.0).",
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
     title: "Nicole Fong | AI/ML Engineer & Full Stack Developer",
     description:
-      "Second-year AI student at UC San Diego. DiamondHacks 2026 winner. Building multimodal AI and full-stack software.",
+      "Second-year AI student at UC San Diego. 2x hackathon winner. Building multimodal AI and full-stack software.",
     creator: "@nicolefong",
   },
   robots: {
@@ -99,7 +99,7 @@ const jsonLd = {
   url: SITE_URL,
   jobTitle: "AI/ML Engineer & Full Stack Developer",
   description:
-    "Second-year Artificial Intelligence student at UC San Diego. ACM AI Events Director. DiamondHacks 2026 winner.",
+    "Second-year Artificial Intelligence student at UC San Diego. ACM AI Events Director. 2x hackathon winner (DiamondHacks 2026, CalHacks 13.0).",
   alumniOf: {
     "@type": "CollegeOrUniversity",
     name: "UC San Diego",

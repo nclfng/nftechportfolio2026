@@ -27,7 +27,7 @@ export default function ProjectCard({ project, featured = false }) {
         {project.stack.join(" · ")}
       </p>
 
-      {(project.live || project.github) && (
+      {(project.live || project.github || project.github2) && (
         <div className="flex gap-5 mt-3 pt-3 border-t border-rule">
           {project.live && (
             <a
@@ -47,6 +47,16 @@ export default function ProjectCard({ project, featured = false }) {
               className="font-mono text-[13px] text-accent hover:text-accent-strong transition-colors duration-150"
             >
               GitHub ↗
+            </a>
+          )}
+          {project.github2 && (
+            <a
+              href={project.github2}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-mono text-[13px] text-accent hover:text-accent-strong transition-colors duration-150"
+            >
+              GitHub 2 ↗
             </a>
           )}
         </div>

@@ -53,7 +53,7 @@ export default async function Image() {
             maxWidth: 900,
           }}
         >
-          UC San Diego · ACM AI Events Director · DiamondHacks 2026 Winner
+          UC San Diego · ACM AI Events Director · 2x Hackathon Winner
         </div>
       </div>
     ),

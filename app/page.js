@@ -43,6 +43,12 @@ const experience = [
 
 const awards = [
   {
+    title: "1st Place Apify Customer Award",
+    event: "CalHacks 13.0",
+    date: "Oct 2026",
+    href: "https://devpost.com/software/brickblock",
+  },
+  {
     title: "Best Use of Browser Use",
     event: "ACM DiamondHacks 2026",
     date: "April 2026",
@@ -128,7 +134,7 @@ export default function Home() {
             <p className="text-[17px] leading-[1.65] text-ink-2 max-w-prose">
               Second-year AI student at UCSD building multimodal AI systems, computer vision
               tools, and production ML pipelines. ACM mentor. TESC Co-President.
-              Hackathon winner.
+              2x hackathon winner.
             </p>
             <div className="flex items-center gap-2 flex-wrap">
               <span className="font-mono text-xs text-ink-2 border border-rule rounded-sm px-3 py-1">
@@ -219,6 +225,36 @@ export default function Home() {
           </Link>
         </div>
 
+        <div className="flex flex-col gap-5">
+        <a
+          href="https://devpost.com/software/brickblock"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group grid gap-5 sm:grid-cols-[140px_1fr] bg-raised border border-rule hover:border-accent rounded p-6 transition-colors duration-200"
+        >
+          <div className="flex flex-col gap-2.5">
+            <span className="font-mono text-xs text-ink-3">2026</span>
+            <span className="font-mono text-xs text-accent border border-accent rounded-sm px-2 py-1 w-fit">
+              1st Place Apify Customer Award · CalHacks 13.0
+            </span>
+            <span className="font-mono text-xs text-ink-3 leading-relaxed">
+              React · Three.js · OpenCascade · FastAPI · Convex
+            </span>
+          </div>
+          <div>
+            <h3 className="font-display font-semibold text-ink group-hover:text-accent text-xl leading-tight transition-colors duration-200">
+              BrickBots <span className="text-ink-3 text-base">↗</span>
+            </h3>
+            <p className="text-sm text-ink-2 leading-relaxed mt-2">
+              Legos for robotics: plan and assemble a robot from real parts in the browser. Uses
+              manufacturer CAD in a 3D workspace, snapping attachment nodes derived from STEP
+              geometry, live multi-retailer pricing via Apify, and an AI build pipeline where one
+              model proposes and another reviews. Won 1st Place Apify Customer Award at CalHacks 13.0
+              among 1,000+ participants.
+            </p>
+          </div>
+        </a>
+
         <a
           href="https://devpost.com/software/straightline"
           target="_blank"
@@ -246,6 +282,7 @@ export default function Home() {
             </p>
           </div>
         </a>
+        </div>
       </section>
 
       {/* ── EXPERIENCE ── */}

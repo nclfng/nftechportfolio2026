@@ -2,6 +2,26 @@ import ProjectCard from "@/components/ProjectCard";
 
 const projects = [
   {
+    id: 9,
+    title: "BrickBots",
+    tagline: "Legos for robotics, CalHacks 13.0 Apify award winner",
+    description:
+      "Built at CalHacks 13.0 (1,000+ participants). A browser-based tool to plan and assemble robots from real parts: describe a build, and BrickBots finds the parts, shows them in a 3D workspace using manufacturer CAD, and totals the cost with live prices before you buy. Attachment nodes derived from STEP geometry let parts snap together with exact rotation and depth, and a propose-then-review AI pipeline validates builds against measured geometry. Won 1st Place Apify Customer Award.",
+    stack: ["React", "TypeScript", "Three.js", "OpenCascade (WASM)", "FastAPI", "Convex", "Apify", "Gemini", "Claude"],
+    year: "2026",
+    color: "lemon",
+    live: "https://www.brickbots.ink/",
+    github: "https://github.com/nnapper/calhacks-13.0-brickbots",
+    github2: "https://github.com/nclfng/calhacks-13.0-brickbots",
+    highlights: [
+      "Won 1st Place Apify Customer Award at CalHacks 13.0 among 1,000+ participants.",
+      "Parsed STEP files with OpenCascade in WebAssembly and extracted attachment nodes from B-Rep geometry for exact snapping.",
+      "Added BVH collision detection, hole-occupancy tracking, and normal validation to block physically invalid placements.",
+      "Built an AI pipeline where Gemini proposes a build and Claude reviews it, with local geometry checks and single-step undo.",
+      "Integrated live multi-retailer pricing via Apify into a where-to-buy receipt for the whole build.",
+    ],
+  },
+  {
     id: 1,
     title: "Straightline",
     tagline: "ADA compliance analysis platform, DiamondHacks 2026 winner",
