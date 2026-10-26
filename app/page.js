@@ -43,7 +43,7 @@ const experience = [
 
 const awards = [
   {
-    title: "1st Place Apify Customer Award",
+    title: "1st Customer Award (Apify)",
     event: "CalHacks 13.0",
     date: "Oct 2026",
     href: "https://devpost.com/software/brickblock",
@@ -191,7 +191,7 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-6 max-w-prose">
             <p className="text-[17px] leading-[1.65] text-ink-2">
-              AI major, interested in <em className="font-display italic text-accent">Cognitive Behavioral Neuroscience</em>.
+              Artificial Intelligence major, interested in <em className="font-display italic text-accent">Cognitive Behavioral Neuroscience</em>.
               Passionate about building tools that support others and translating technical explanations to help
               everyone learn about technology, regardless of background.
             </p>
@@ -235,7 +235,7 @@ export default function Home() {
           <div className="flex flex-col gap-2.5">
             <span className="font-mono text-xs text-ink-3">2026</span>
             <span className="font-mono text-xs text-accent border border-accent rounded-sm px-2 py-1 w-fit">
-              1st Place Apify Customer Award · CalHacks 13.0
+              1st Customer Award (Apify) · CalHacks 13.0
             </span>
             <span className="font-mono text-xs text-ink-3 leading-relaxed">
               React · Three.js · OpenCascade · FastAPI · Convex
@@ -249,7 +249,7 @@ export default function Home() {
               Legos for robotics: plan and assemble a robot from real parts in the browser. Uses
               manufacturer CAD in a 3D workspace, snapping attachment nodes derived from STEP
               geometry, live multi-retailer pricing via Apify, and an AI build pipeline where one
-              model proposes and another reviews. Won 1st Place Apify Customer Award at CalHacks 13.0
+              model proposes and another reviews. Won the Apify 1st Customer Award at CalHacks 13.0
               among 1,000+ participants.
             </p>
           </div>

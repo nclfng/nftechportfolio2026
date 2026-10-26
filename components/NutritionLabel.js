@@ -30,8 +30,8 @@ export default function NutritionLabel() {
           <span className="text-ink font-semibold">1 Engineer</span>
         </div>
         <div className="flex justify-between py-2 border-b border-rule text-sm">
-          <span className="text-ink-3">Years Building</span>
-          <span className="text-ink font-semibold">3+</span>
+          <span className="text-ink-3">Year Building</span>
+          <span className="text-ink font-semibold">2nd</span>
         </div>
       </div>
 
